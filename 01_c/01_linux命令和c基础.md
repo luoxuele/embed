@@ -22,11 +22,13 @@
 ## cat - concatenate files and print on the standard output
 ## 
 
-# 5. 
+# 5. 文件移动和复制
 ## cp	mv	
 
 # 6. 创建和删除文件
 ## touch	rm	mkdir	rmdir
+
+7. 
 
 
 

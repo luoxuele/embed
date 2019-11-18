@@ -37,11 +37,14 @@
 ### 末行模式 --- 保存，退出，查找，替换，列出行号
 
 ## 2. vim修改
-### tab
+### tab默认4个空格
 vim /etc/vim/vimrc
 set ts=4
 set expandtab
 set autoindent
+
+### 显示行号
+set number
 
 
 

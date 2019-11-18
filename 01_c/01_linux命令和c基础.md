@@ -26,7 +26,9 @@
 ## cp	mv	
 
 # 6. 创建和删除文件
-## touch	rm
+## touch	rm	mkdir	rmdir
+
+
 
 
 

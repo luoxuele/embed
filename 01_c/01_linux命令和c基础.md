@@ -47,7 +47,11 @@ set autoindent
 set number
 
 ## 3. vi拷贝与粘贴
-
+x 删除
+dd	删除行
+yy	
+pP
+u
 
 
 

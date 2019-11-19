@@ -60,6 +60,9 @@ x	exit保存退出 = wq
 w File 另存为，不退出
 r File	读取File,插入到光标后
 
+## 5. 光标命令
+hjki ()
+
 
 
 

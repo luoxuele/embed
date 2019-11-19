@@ -107,5 +107,8 @@ range y 块复制
 .s	汇编
 .o	编译后的目标文件
 
+gcc -o hello hello.c
+-o 
+
 
 

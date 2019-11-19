@@ -53,6 +53,10 @@ yy	yank复制
 pP	粘贴put
 u	undo
 
+## 4. vi保存和退出
+q! 强制退出
+w	
+
 
 
 

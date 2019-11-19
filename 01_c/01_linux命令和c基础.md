@@ -81,6 +81,9 @@ N 向上
 :范围s/oldstr/newstr/ 默认范围是当前行
 :s/str1/str2/
 :s/str1/str2/g 全部替换
+:.,$s/str1/str2/g 当前行到最后一行
+:1,$s/str1/str2/g	全文
+:%s/str1/str2/g
 
 
 

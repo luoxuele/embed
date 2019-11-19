@@ -46,6 +46,8 @@ set autoindent
 ### 显示行号
 set number
 
+## 3. vi拷贝与粘贴
+
 
 
 

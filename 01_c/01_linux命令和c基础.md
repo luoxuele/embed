@@ -55,7 +55,10 @@ u	undo
 
 ## 4. vi保存和退出
 q! 强制退出
-w	
+w	write
+x	exit保存退出 = wq
+w File 另存为，不退出
+r File	读取File
 
 
 

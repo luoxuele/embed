@@ -83,7 +83,7 @@ N 向上
 :s/str1/str2/g 全部替换
 :.,$s/str1/str2/g 当前行到最后一行
 :1,$s/str1/str2/g	全文
-:%s/str1/str2/g
+:%s/str1/str2/g		全文
 
 
 

@@ -49,7 +49,7 @@ set number
 ## 3. vi拷贝与粘贴
 x 删除expurgate
 dd	删除行delete
-yy	yank
+yy	yank复制
 pP	粘贴put
 u	undo
 

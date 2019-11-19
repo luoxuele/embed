@@ -84,6 +84,7 @@ N 向上
 :.,$s/str1/str2/g 当前行到最后一行
 :1,$s/str1/str2/g	全文
 :%s/str1/str2/g		全文
+:10,15s/str1/str2/g 	10-15行全部替换
 
 
 

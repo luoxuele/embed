@@ -78,8 +78,10 @@ N 向上
 支持正则	/^the	/ends^
 
 ## 7. 替换
-:范围
+:范围s/oldstr/newstr/ 默认范围是当前行
 :s/str1/str2/
+:s/str1/str2/g 全部替换
+
 
 
 

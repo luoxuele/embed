@@ -108,7 +108,9 @@ range y 块复制
 .o	编译后的目标文件
 
 gcc -o hello hello.c
--o 
+-o 输出可执行文件
+-c 输出目标代码 .o文件
+-g 调试
 
 
 

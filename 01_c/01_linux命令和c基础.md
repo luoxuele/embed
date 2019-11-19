@@ -63,13 +63,23 @@ r File	读取File,插入到光标后
 ## 5. 光标命令
 hjki (左，下上，由)
 :N
-1G	首字
-G 
+1G	第一行
+G 	最后一行
+set number
+set nonu
 
 
 
 
+## 6. vi查找
+/string
+n 向下
+N 向上
+支持正则	/^the	/ends^
 
+## 7. 替换
+:范围
+:s/str1/str2/
 
 
 

@@ -112,5 +112,8 @@ gcc -o hello hello.c
 -c 输出目标代码 .o文件
 -g 调试
 
+作业：
+man assic
+
 
 

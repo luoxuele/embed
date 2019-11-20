@@ -20,7 +20,11 @@ ESc?哈哈
 |-Wall||
 |-g||
 
-3. 静态库的制作和使用
+# 3. 静态库的制作和使用
+1.xx
+ gcc main.c lib/libMyCalc.a -Iinclude
+
+
 
 
 

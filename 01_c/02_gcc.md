@@ -44,5 +44,6 @@ gcc -fpic -c *.c
 gcc -shared -o libMyCalc.so *.o -Iinclude
 
 gcc main.c lib/libMyCalc.so  -Iinclude
+gcc main.c -Iinclude -L./lib -l MyCalc -o myapp
 
 

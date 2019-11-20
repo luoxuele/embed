@@ -31,5 +31,7 @@ ar rcs libMyCalc.a *.o
  gcc main.c -Iinclude -L lib -l MyCalc -o myapp
 
 
+nm lib/libMyCalc.a
+nm myapp
 
 

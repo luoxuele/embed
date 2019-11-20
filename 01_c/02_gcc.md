@@ -48,3 +48,5 @@ gcc main.c -Iinclude -L./lib -l MyCalc -o myapp
 
 查看可执行程序依赖的动态库
 ldd myapp
+
+动态库链接失败

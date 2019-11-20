@@ -22,8 +22,11 @@ ESc?哈哈
 
 # 3. 静态库的制作和使用
 1.制作
+gcc *.c -c
+ar rcs libMyCalc.a *.o
 
 
+2. 使用
  gcc main.c lib/libMyCalc.a -Iinclude
  gcc main.c -Iinclude -L lib -l MyCalc -o myapp
 

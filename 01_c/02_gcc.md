@@ -31,7 +31,11 @@ ar rcs libMyCalc.a *.o
  gcc main.c -Iinclude -L lib -l MyCalc -o myapp
 
 
+nm - list symbols from object files
+
 nm lib/libMyCalc.a
 nm myapp
+
+T -- 表示在代码区
 
 

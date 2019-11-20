@@ -26,6 +26,7 @@ ESc?哈哈
 gcc *.c -c
 ar rcs libMyCalc.a *.o
 
+
 ## 2. 使用
  gcc main.c lib/libMyCalc.a -Iinclude
  gcc main.c -Iinclude -L lib -l MyCalc -o myapp

@@ -43,4 +43,6 @@ T -- 表示在代码区
 gcc -fpic -c *.c
 gcc -shared -o libMyCalc.so *.o -Iinclude
 
+gcc main.c lib/libMyCalc.so  -Iinclude
+
 

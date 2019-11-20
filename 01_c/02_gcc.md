@@ -21,9 +21,11 @@ ESc?哈哈
 |-g||
 
 # 3. 静态库的制作和使用
-1.xx
- gcc main.c lib/libMyCalc.a -Iinclude
+1.制作
 
+
+ gcc main.c lib/libMyCalc.a -Iinclude
+ gcc main.c -Iinclude -L lib -l MyCalc -o myapp
 
 
 

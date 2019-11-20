@@ -51,4 +51,4 @@ ldd myapp
 
 动态库链接失败解决：
 1. 放到/lib目录下
-2. 
+2. export LD_LIBRARY_PATH=./lib

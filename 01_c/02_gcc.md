@@ -56,5 +56,6 @@ ldd myapp
 4. 1. 需要找到动态链接器的配置文件
    2. 动态库的路径写入到配置文件中
    3. 跟新 sudo ldconfig -v
+   sudo vi /etc/ld.so.conf
 
 

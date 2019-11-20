@@ -46,4 +46,5 @@ gcc -shared -o libMyCalc.so *.o -Iinclude
 gcc main.c lib/libMyCalc.so  -Iinclude
 gcc main.c -Iinclude -L./lib -l MyCalc -o myapp
 
-
+查看可执行程序依赖的动态库
+ldd myapp

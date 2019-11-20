@@ -52,4 +52,7 @@ ldd myapp
 动态库链接失败解决：
 1. 放到/lib目录下
 2. export LD_LIBRARY_PATH=./lib   临时设置，测试用
-3. 
+3. 把2的方法加入到.bashrc
+4. 1. 需要
+
+
